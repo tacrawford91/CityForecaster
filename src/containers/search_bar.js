@@ -22,8 +22,6 @@ class SearchBar extends Component {
     };
 
     //go Fetch Weather Data
-
-
     render() {
         return (
             <form onSubmit={this.onFormSubmit} className='input-group'>
